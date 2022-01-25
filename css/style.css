@@ -2,20 +2,40 @@
 
 
 html {
-    height: 100%;
-    margin: 0;
-    position: relative;
+ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     color: white;
-    background-image: linear-gradient(to bottom right, #646c85, #444555, #24252c , #15161b);
-    font-family: 'Inconsolata', monospace; }
+    background-image: url(img.jpg);
+   /*background-image: linear-gradient(to bottom right, #646c85, #444555, #24252c , #15161b);*/
+    font-family: 'Inconsolata', monospace; 
+    margin: 0;
+}
 
     .header {
         font-size: larger;
         text-align: center;
+        background-color: black;
+        position: relative;
+        height: 60px;
+        padding: 1px;
+        display: block;
 
+    }
+
+    #titulo {
+        margin-top: 10px;
+        display: block;
+    }
+
+    
+    #sub {
+        font-size: 10px;
+        margin-top: -20px;
     }
 
     .menu {
@@ -23,37 +43,48 @@ body {
     }
 
     .subtitulo {
+        width: 70%;
         text-align: center;
-        font-size: 30px;
-        margin-top: 10% ; 
+        font-size: 15px;
+        margin-top: 5% ; 
         margin-bottom: 50px;
+        margin-left: 17%;
        }
 
     .box {
         justify-content: center;
         background-color: #15161b ;
+        text-align: center;
         width: 45%;
         height: 170px;
         display: inline-block;
         border-radius: 7px;
         vertical-align: middle;
-    
+        padding: 10px;
+        margin-left: 2%;
     }
 
     label{
+        font-size: 20px;
+    }
+
+    ::placeholder {
         font-size: 15px;
-        margin-top: 10px;
+        padding: 5px;
     }
 
 
-    .input {
+    input {
     
-        width: 200px;
+        width: 90%;
         margin-top: 20px;
         margin-left: 5px;
-        height: 50px;
+        height: 70px;       
     }
 
+    input:focus {
+        outline-color: #444555;
+    }
 
     .botao {
         background-color: #444555;
@@ -62,11 +93,17 @@ body {
         
     }
 
+    button:hover {
+        background-color: #25262e;
+        transition: 0.5s;
+    }
+
     .rodape {
-        position: absolute;
+        position: fixed ;
         bottom: 0;
         left: 0;
         width: 100%;
         text-align: center;
-        background-color: black;        
+        background-color: black;  
+        height: 40px;      
         }
