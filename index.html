@@ -4,25 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>incriptador</title>
+    <title>Codificador de Texto</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
 
-        <h1 class="titulo">Codificador de texto</h1>
-
+        <h1 id="titulo">Codificador de texto </h1>  
         
     </header>
-    
-    <nav class="menu">
-        <a href="#">Home</a>
-        <a href="#">Saiba mais</a>
-    </nav> 
 
     <main class="container">
 
-        <h2 class="subtitulo">Código secreto</h2>
+        <div class="subtitulo">
+            <h2><strong style="font-size: 25px;"> Criptografia de textos: </strong> um desafio do programa Oracle Next Education para os alunos iniciantes em programação. O desafio consta em treinar a lógica de programação fazendo um codificador de texto com javascript. </h2>
+        </div>
 
         <div class="box">
             <label id="instrucao">Use apenas letras minúsculas e sem acentos</label>
@@ -37,11 +34,11 @@
         <div class="box">
             <label for="input" id="mensagem">Mensagem criptografada:</label>
 
-            <input type="textarea" name="texto" placeholder="seu texto aparecerá aqui" class="input">
+            <input type="textarea" name="texto" placeholder="seu texto aparecerá aqui" id="input" >
 
             <br>
 
-            <button class="botao">Copiar texto</button>
+            <button class="botao" onclick="copiarTexto()">Copiar texto</button>
         </div>
 
     </main>
@@ -51,5 +48,8 @@
         <p texto-rodape>Desenvolvido por Tatiane Espíndola</p>
 
     </footer>
+
+   
+    </script>
 </body>
 </html>
