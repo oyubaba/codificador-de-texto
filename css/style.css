@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Kaushan+Script&display=swap');
+
+
+html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    color: white;
+    background-image: linear-gradient(to bottom right, #646c85, #444555, #24252c , #15161b);
+    font-family: 'Inconsolata', monospace; }
+
+    .header {
+        font-size: larger;
+        text-align: center;
+
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    .subtitulo {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10% ; 
+        margin-bottom: 50px;
+       }
+
+    .box {
+        justify-content: center;
+        background-color: #15161b ;
+        width: 45%;
+        height: 170px;
+        display: inline-block;
+        border-radius: 7px;
+        vertical-align: middle;
+    
+    }
+
+    label{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+
+    .input {
+    
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 5px;
+        height: 50px;
+    }
+
+
+    .botao {
+        background-color: #444555;
+        color: white;
+        margin-top: 20px;
+        
+    }
+
+    .rodape {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: black;        
+        }
