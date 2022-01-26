@@ -107,3 +107,7 @@ body {
         background-color: black;  
         height: 40px;      
         }
+
+        #link {
+            text-decoration: none;
+        }
