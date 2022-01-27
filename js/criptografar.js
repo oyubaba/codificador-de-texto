@@ -13,6 +13,14 @@ botaoCriptografar.addEventListener("click", function() {
     mensagem = mensagem.replace(/u/g, "ufat");
     mensagem = mensagem.replace(/a/g, "ai");
    
+    
+    mensagem = mensagem.replace(/E/g, "enter");
+    mensagem = mensagem.replace(/I/g, "imes");
+    mensagem = mensagem.replace(/O/g, "ober");
+    mensagem = mensagem.replace(/U/g, "ufat");
+    mensagem = mensagem.replace(/A/g, "ai");
+
+
     if(mensagem == "") {
         alert("Por favor, escreva algo.");
     }    

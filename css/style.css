@@ -24,6 +24,7 @@ body {
         height: 60px;
         padding: 1px;
         display: block;
+        width: 100%;
 
     }
 
@@ -33,12 +34,8 @@ body {
     }
 
     
-    #sub {
-        font-size: 10px;
-        margin-top: -20px;
-    }
-
-    .menu {
+    .container {
+        width: 100%;
         text-align: center;
     }
 
@@ -51,6 +48,7 @@ body {
         margin-left: 17%;
        }
 
+
     .box {
         justify-content: center;
         background-color: #15161b ;
@@ -60,13 +58,11 @@ body {
         display: inline-block;
         border-radius: 7px;
         vertical-align: middle;
-        padding: 10px;
-        margin-left: 2%;
+        padding: 10px;      
     }
 
     label{
         font-size: 1em;
-        text-decoration: ;
     }
 
     ::placeholder {
