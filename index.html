@@ -32,13 +32,13 @@
         </div>
 
         <div class="box">
-            <label for="input" id="mensagem"><strong> Letras maiúsculas serão desconsideradas</strong> </label>
+            <label for="input" id="mensagem"><strong> Letras maiúsculas e acentos serão desconsiderados</strong> </label>
 
             <input type="textarea" name="texto" placeholder="seu texto aparecerá aqui" id="input" >
 
             <br>
 
-            <button class="botao" onclick="copiarTexto()">Copiar texto</button>
+            <button class="botao" id="copiar">Copiar texto</button>
         </div>
 
     </main>
@@ -52,5 +52,6 @@
    
     <script src="js/criptografar.js"></script>
     <script src="js/descriptografar.js"></script>
+    <script src="js/copiar.js"></script>
 </body>
 </html>

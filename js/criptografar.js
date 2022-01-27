@@ -10,8 +10,8 @@ botaoCriptografar.addEventListener("click", function() {
     mensagem = mensagem.replace(/e/g, "enter");
     mensagem = mensagem.replace(/i/g, "imes");
     mensagem = mensagem.replace(/o/g, "ober");
-    mensagem = mensagem.replace(/u/g, "ufat");
     mensagem = mensagem.replace(/a/g, "ai");
+    mensagem = mensagem.replace(/u/g, "ufat");
    
     
     mensagem = mensagem.replace(/E/g, "enter");
