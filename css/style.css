@@ -65,7 +65,8 @@ body {
     }
 
     label{
-        font-size: 20px;
+        font-size: 1em;
+        text-decoration: ;
     }
 
     ::placeholder {

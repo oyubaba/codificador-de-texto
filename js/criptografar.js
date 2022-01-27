@@ -6,28 +6,20 @@ var descriptografar = document.querySelector("#input");
 
 botaoCriptografar.addEventListener("click", function() {
     
-    
     var mensagem = criptografia.value;
-    descriptografar.value = mensagem.toLowerCase();
-    
-    function criptografar(){
-        var a = mensagem.replace(/a/g, "ai");
-        
-        var e = mensagem.replace(/e/g, "enter");
-        
-        var i = mensagem.replace(/i/g, "imes");
-        
-        var o = mensagem.replace(/o/g, "ober");
-        
-        var u = mensagem.replace(/u/g, "ufat");
-
-        //return(a)
-
-        // talvez um variavel só?
-        
-    }
+    mensagem = mensagem.replace(/e/g, "enter");
+    mensagem = mensagem.replace(/i/g, "imes");
+    mensagem = mensagem.replace(/o/g, "ober");
+    mensagem = mensagem.replace(/u/g, "ufat");
+    mensagem = mensagem.replace(/a/g, "ai");
    
-    console.log(criptografar.value);
+    if(mensagem == "") {
+        alert("Por favor, escreva algo.");
+    }    
+
+    descriptografar.value = mensagem.toLowerCase();
+
+    criptografia.value = "";
 
     })    
 
