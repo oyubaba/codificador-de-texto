@@ -5,27 +5,28 @@ html {
  
     margin:0;
     padding: 0;
+    height: 100%;
     box-sizing: border-box;
 }
 
 body {
     color: white;
     background-image: url(img.jpg);
-   /*background-image: linear-gradient(to bottom right, #646c85, #444555, #24252c , #15161b);*/
     font-family: 'Inconsolata', monospace; 
     margin: 0;
 }
 
+main {
+    height: 100%;
+}
+
     .header {
-        font-size: larger;
+        font-size: 1.9;
         text-align: center;
         background-color: black;
-        position: relative;
         height: 60px;
-        padding: 1px;
-        display: block;
+        padding: 2px;
         width: 100%;
-
     }
 
     #titulo {
@@ -42,27 +43,31 @@ body {
     .subtitulo {
         width: 70%;
         text-align: center;
-        font-size: 15px;
-        margin-top: 5% ; 
-        margin-bottom: 50px;
-        margin-left: 17%;
+        font-size: 1.3em;
+        margin: auto; 
+        padding: 50px;
+        max-width: 700px;
+        line-height: 1.3;
        }
 
+       .box-container {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+       }
 
     .box {
-        justify-content: center;
         background-color: #15161b ;
         text-align: center;
-        width: 45%;
-        height: 170px;
-        display: inline-block;
+        margin: 20px;
+        width: 500px;
+        height: 200px;
         border-radius: 7px;
-        vertical-align: middle;
-        padding: 10px;      
+        padding: 20px;      
     }
 
     label{
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     ::placeholder {
@@ -76,7 +81,7 @@ body {
         width: 90%;
         margin-top: 20px;
         margin-left: 5px;
-        height: 70px;       
+        height: 100px;       
     }
 
     input:focus {
@@ -85,26 +90,30 @@ body {
 
     .botao {
         background-color: #444555;
+        border: none;
         color: white;
+        width: 100px;
+        height: 35px;
+        border-radius: 2px;
+        margin-right: 10px;
         margin-top: 20px;
         
     }
 
     button:hover {
         background-color: #25262e;
+        transform: scale(1.2);
         transition: 0.5s;
+        cursor: pointer;
     }
 
     .rodape {
-        position: fixed ;
-        bottom: 0;
-        left: 0;
-        width: 100%;
         text-align: center;
         background-color: black;  
-        height: 40px;      
+        padding: 5px;
         }
 
-        #link {
-            text-decoration: none;
-        }
+    #link {
+         text-decoration: none;
+         color: white;
+      }

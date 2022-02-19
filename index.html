@@ -18,38 +18,32 @@
     <main class="container">
 
         <div class="subtitulo">
-            <h2><strong style="font-size: 25px;"> Criptografia de textos: </strong> um desafio do programa Oracle Next Education para os alunos iniciantes em programação. O desafio consta em treinar a lógica de programação fazendo um codificador de texto com javascript. </h2>
+            <h2><strong> Criptografia de textos: </strong> um desafio do programa Oracle Next Education para os alunos iniciantes em programação. O desafio consta em treinar a lógica de programação fazendo um codificador de texto com javascript. </h2>
         </div>
-
-        <div class="box">
-            <label id="instrucao"><strong> Digite seu texto:</strong></label>
-
-            <input type="textarea" name="texto" placeholder="insira o texto aqui" class="input" >
-<br>
-            <button class="botao" id="criptografar">Criptografar</button>
-            <button class="botao" id="descriptografar">Descriptografar</button>
-
-        </div>
-
+<section class="box-container">
+    
+            <div class="box">
+                <label id="instrucao"><strong> Digite seu texto:</strong></label>
+    
+                <input type="textarea" name="texto" placeholder="insira o texto aqui" class="input" >
+                <button class="botao" id="criptografar">Criptografar</button>
+                <button class="botao" id="descriptografar">Descriptografar</button>
+    
+            </div>
         <div class="box">
             <label for="input" id="mensagem"><strong> Letras maiúsculas e acentos serão desconsiderados</strong> </label>
 
             <input type="textarea" name="texto" placeholder="seu texto aparecerá aqui" id="input" >
-
-            <br>
-
             <button class="botao" id="copiar">Copiar texto</button>
         </div>
+    
+</section>
 
     </main>
-
-    <footer class="rodape">
-
+    <!--<footer class="rodape">
         <p texto-rodape>Desenvolvido por <a href="https://www.linkedin.com/in/tatiane-esp%C3%ADndola-a7a2b91a7/" id="link" target="_blank">Tatiane Espíndola</a></p>
+    </footer>-->
 
-    </footer>
-
-   
     <script src="js/criptografar.js"></script>
     <script src="js/descriptografar.js"></script>
     <script src="js/copiar.js"></script>
